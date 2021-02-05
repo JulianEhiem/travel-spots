@@ -1,0 +1,64 @@
+
+.viewContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 35%;
+  max-width: 270px;
+  min-width: 200px;
+  padding: 0.5rem 0.5rem 1rem;
+  /* background-color: grey; */
+  margin: 1rem;
+}
+.dropdownDiv {
+  /* background: red; */
+  display: flex;
+  flex-basis: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.viewType {
+  display: inline-block;
+  color: #fff;
+  /* border: white solid 1px; */
+}
+.ddBtn {
+  display: inline-block;
+  margin-left: 0.7rem;
+  border: 0.2px #fff solid;
+  padding: 0.3rem;
+  background: none;
+  color: #fff;
+}
+.dropdownContent {
+  display: flex;
+  flex-direction: column;
+}
+.dropdownContent a {
+  display: flex;
+  background-color: lightgray;
+  text-align: center;
+  padding: 0 0.5rem;
+  line-height: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  text-align: center;
+  padding: 0 0.5rem;
+  line-height: 2rem;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+}

@@ -1,14 +1,14 @@
-const ImageLocation = () => {
+const ImageLocation = (props) => {
     return (
       <div className="imgLocationContainer">
         <div className="imgLocation">
           <h1 className="imgLocationCity">
-            Melbourne,
-            <span className="imgLocationCountry"> Australia</span>
+            {props.locations.city},
+            <span className="imgLocationCountry"> {props.locations.country}</span>
           </h1>
         </div>
         <div className="imgLocationDescription">
-          <p>Melbourne is a pretty cool place</p>
+          <p>{props.locations.description}</p>
         </div>
       </div>
     );
