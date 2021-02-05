@@ -1,10 +1,10 @@
-import './App.css';
-import ThemeSelector from './ThemeSelector';
+import './index.css';
+import TravelSpotContainer from './components/TravelSpotContainer';
 
 function App() {
   return (
-    <div className="App">
-      <ThemeSelector/>
+    <div>
+      <TravelSpotContainer/>
     </div>
   );
 }
