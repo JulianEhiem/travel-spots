@@ -34,11 +34,11 @@
   color: #fff;
 }
 .dropdownContent {
-  display: flex;
-  flex-direction: column;
+  display: block;
+  /* flex-direction: column; */
 }
-.dropdownContent a {
-  display: flex;
+.dropdownContent a{
+  display: none;
   background-color: lightgray;
   text-align: center;
   padding: 0 0.5rem;
@@ -49,10 +49,10 @@
   font-weight: bold;
   border-bottom: 1px solid #000;
 }
-.show {
-  display: flex;
-  flex-direction: column;
-  background-color: lightgray;
+.show a{
+  display: block;
+  /* flex-direction: column; */
+  /* background-color: lightgray;
   text-align: center;
   padding: 0 0.5rem;
   line-height: 2rem;
@@ -60,5 +60,5 @@
   color: #000;
   font-size: 1.2rem;
   font-weight: bold;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #000; */
 }
