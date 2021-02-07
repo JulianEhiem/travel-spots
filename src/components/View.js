@@ -1,9 +1,9 @@
 import style from '../styles/view.module.css';
-const View = () => {
+const View = (props) => {
   return (
     <div className={style.viewContainer}>
       <div className={style.dropdownDiv}>
-        <h1 className={style.viewType}>Mountains</h1>
+        <h1 className={style.viewType}>{props.views}</h1>
       </div>
     </div>
   );
