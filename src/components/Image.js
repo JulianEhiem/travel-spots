@@ -1,15 +1,13 @@
-import React from 'react';
-import View from "./View";
-import ImageLocation from "./ImageLocation";
+const Image = (props) => {
+  let locations = props.location;
+  let iteratorCt = props.iterator;
 
-
-const Image = () =>{
-    return(
-        <div className='imageComp'style={{backgroundColor: "teal"}}>
-        </div>
-    )
-}
-
-
+  return (
+    <div
+      className="imageComp"
+      style={{ background: `url(${locations[iteratorCt].imagelink})` }}
+    ></div>
+  );
+};
 
 export default Image;
