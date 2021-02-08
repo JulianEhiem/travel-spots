@@ -1,5 +1,5 @@
-{
-    "locations":[
+
+   const locations =[
         {"city": "Caracas",
         "country": "Venezuela",
         "description": "Ignore the socialism, stay for the food",
@@ -15,5 +15,6 @@
         "description": "Take a dip and then have some pasta",
         "image-link": "https://images.unsplash.com/photo-1531275090635-95f0974c3073?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
         }
-    ]      
-}
+    ];      
+
+    export default locations;
