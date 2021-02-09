@@ -2,7 +2,7 @@ import View from "./View";
 // import Arrows from "./Arrows";
 import Image from "./Image";
 import ImageLocation from "./ImageLocation";
-// import SlideTracker from "./SlideTracker";
+import SlideTracker from "./SlideTracker";
 import locations from "../locations";
 import { useState } from "react";
 // import styles from "../index.css";
@@ -20,6 +20,7 @@ export default function TravelSpotContainer() {
       <Image location={locations} iterator={iteratorCt} />
       <View location={locations} iterator={iteratorCt} />
       <ImageLocation locations={locations} iterator={iteratorCt} />
+      <SlideTracker locations={locations} num ={iteratorCt} />
       <div className="arrowContainer">
         <div className="arrowLeft">
           <button

@@ -148,8 +148,17 @@
   border: 0.5px solid grey;
 }
 .lit {
-  background: salmon;
+  background: white;
+  animation-name: lit;
+  animation-timing-function: linear;
 }
+@keyframes lit{
+  0%   { transform: translateY(0); }
+        50%  { transform: translateY(-100px); }
+        100% { transform: translateY(0); }
+}
+
+
 .imageComp {
   --width: 800px;
   --height: 500px;
