@@ -4,60 +4,61 @@ const locations = [
     city: "Colorado",
     country: "United States",
     description:
-      "Breath-taking views from the twin peaks and their glassy reflection.",
-    imagelink: "https://source.unsplash.com/random/800x600",
+      "A reflective lake and two giant snow-striped mountaintops, anchor a blissful panorama exemplified by a symphony of color that changes with the seasons.",
+    imagelink:
+      "https://s8173.pcdn.co/wp-content/uploads/2010/10/maroonbells_.jpg",
   },
   {
     name: "Grand Canyon",
-    city: "Colorado",
+    city: "Arizona",
     country: "United States",
     description:
-      "Breath-taking views from the twin peaks and their glassy reflection.",
+      "A 70 million year old canyon so grand it creates its own weather",
     imagelink:
-      "https://images.unsplash.com/photo-1474044159687-1ee9f3a51722?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "https://i0.wp.com/utour-usa.com/wp-content/uploads/2018/11/%E9%A9%AC%E8%B9%84%E6%B9%BE-2.jpg?fit=800%2C600&ssl=1",
   },
   {
     name: "Blue Ridge Mountains",
-    city: "Colorado",
+    city: "Virginia",
     country: "United States",
     description:
-      "Breath-taking views from the twin peaks and their glassy reflection.",
+      "With about 125 peaks of 5,000+ feet in elevation, the Blue Ridge is home to many of the highest mountains in eastern North America.",
     imagelink:
-      "https://images.unsplash.com/photo-1612211894457-06f6f6cf8635?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "https://files.tripstodiscover.com/files/2018/09/bigstock-Linn-Cove-Viaduct-Grandfather-207767164.jpg",
   },
   {
     name: "Oia",
-    city: "Colorado",
-    country: "United States",
+    city: "Santorini",
+    country: "Greece",
     description:
-      "Breath-taking views from the twin peaks and their glassy reflection.",
+      "This scenic volcanic island is home to more churches than houses. However most of them are small and private.",
     imagelink:
-      "https://images.unsplash.com/photo-1580502304784-8985b7eb7260?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
+      "https://s1.it.atcdn.net/wp-content/uploads/2015/02/Oia-village-in-Santorini-800x600.jpg",
   },
   {
     name: "Torres del Paine National Park",
-    city: "Colorado",
-    country: "United States",
+    city: "Magallanes",
+    country: "Chile",
     description:
-      "Breath-taking views from the twin peaks and their glassy reflection.",
+      "About 25 species of mammal make their home in the park, including the guanaco, puma, Patagonian gray fox, Chilean Huemul and Wild Horses.",
     imagelink:
-      "https://images.unsplash.com/photo-1508183946972-b520d0701563?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80",
+      "https://topflightfamily.com/wp-content/uploads/2016/10/Torres-Del-Paine-Los-Cuernos-Feature.jpg",
   },
   {
     name: "Morraine Lake",
-    city: "Colorado",
-    country: "United States",
+    city: "Alberta",
+    country: "Canada",
     description:
-      "Breath-taking views from the twin peaks and their glassy reflection.",
+      "Moraine Lake has been featured on the Canadian $20 note in 1969 and 1979, and it is one of Canada’s most commonly photographed places.",
     imagelink:
-      "https://images.unsplash.com/photo-1610878180933-123728745d22?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80",
+      "https://horizonunknown.com/wp-content/uploads/2019/09/why-visit-moraine-lake-alberta-canada.jpg",
   },
   {
     name: "Arches National Park",
-    city: "Colorado",
+    city: "Utah",
     country: "United States",
     description:
-      "Breath-taking views from the twin peaks and their glassy reflection.",
+      "Over 2,000 arches have been discovered and recorded in Arches National Park. This number changes, as new arches are discovered and others collapse.",
     imagelink:
       "https://images.unsplash.com/photo-1602086184922-378e80d003cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1075&q=80",
   },
@@ -66,9 +67,9 @@ const locations = [
     city: "Colorado",
     country: "United States",
     description:
-      "Breath-taking views from the twin peaks and their glassy reflection.",
+      'The name Appenzell (Latin: abbatis cella) means "cell (i.e. estate) of the abbot". This refers to the Abbey of St. Gall, which exerted a great influence on the area',
     imagelink:
-      "https://images.unsplash.com/photo-1596006139515-91dff77be40a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1659&q=80",
+      "https://www.myswitzerland.com/-/media/dam/resources/experience/a/p/appenzell%20whisky%20trek/meta%20page%20image/24016_800600.jpeg",
   },
   {
     name: "Blue Lagoon",
@@ -88,7 +89,7 @@ const locations = [
     photographer: "Cosmic Timetraveler",
     website: "https://unsplash.com/@cosmictimetraveler",
     description:
-      "Bora Bora is a small South Pacific island northwest of Tahiti in French Polynesia. Surrounded by sand-fringed motus (islets) and a turquoise lagoon protected by a coral reef, it’s known for its scuba diving. It's also a popular luxury resort destination where some guest bungalows are perched over the water on stilts.",
+      "Surrounded by sand-fringed motus (islets) and a turquoise lagoon protected by a coral reef, it’s known for its scuba diving.",
     imagelink:
       "https://images.unsplash.com/photo-1521071379542-3b741db9f90b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
   },
