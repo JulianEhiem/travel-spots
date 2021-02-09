@@ -152,7 +152,7 @@
 }
 .imageComp {
   --width: 800px;
-  --height: 600px;
+  --height: 500px;
   width: 70vw;
   max-width: 800px;
   height: 70vh;
