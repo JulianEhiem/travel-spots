@@ -1,6 +1,6 @@
 # Travel spots
 
-This is an image slider built with [React](https://reactjs.org/);
+This is an image slider built with [React](https://reactjs.org/)
 
 <h1 align="center">
 <img src="src/images/screenshot1.png" alt="Travel spot screenshot">
