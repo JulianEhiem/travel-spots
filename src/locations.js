@@ -64,8 +64,8 @@ const locations = [
   },
   {
     name: "Apenzell",
-    city: "Colorado",
-    country: "United States",
+    city: "Apenzell",
+    country: "Switzerland",
     description:
       'The name Appenzell (Latin: abbatis cella) means "cell (i.e. estate) of the abbot". This refers to the Abbey of St. Gall, which exerted a great influence on the area',
     imagelink:
